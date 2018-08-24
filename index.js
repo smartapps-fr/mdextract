@@ -29,8 +29,8 @@ var rules = new Matcher({
   h3: '\\s*%{h3prefix}\\s*%{doc:string}%{eol}',
   doc: '\\s*%{docprefix}\\s?%{doc:string}%{eol}',
   blank: '%{eol}',
-  h2prefix: '/\\*\\*\\*',
-  h3prefix: '/\\*\\*',
+  h2prefix: '/\\*\\*\\*\\*',
+  h3prefix: '/\\*\\*\\*',
   docprefix: '\\*',
   endcomment: '\\*/',
 });
